@@ -37,3 +37,24 @@
 .story-user {
   display: block;
 }
+
+.star,
+.trash-can {
+  font-size: 0.75rem;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.trash-can:hover {
+  color: crimson;
+}
+
+.story-author{
+  color: green;
+  font-size: 0.85rem;
+}
+.story-user{
+  margin-left: 2em;
+  font-size: 0.85rem;
+  color: orange;
+}

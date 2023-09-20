@@ -14,6 +14,15 @@ function navAllStories(evt) {
 
 $body.on("click", "#nav-all", navAllStories);
 
+$navMyStories.on("click", navMyStoriesClick);
+
+function navMyStoriesClick(evt) {
+  console.debug("navMyStoriesClick", evt);
+  hidePageComponents();
+  putUserStoriesOnPage();
+  $myStoriesList.show();
+}
+
 /** Show story submit form on clicking story "submit" */
 
 function navSubmitStoryClick(evt) {
@@ -25,6 +34,16 @@ function navSubmitStoryClick(evt) {
 
 $navSubmitStory.on("click", navSubmitStoryClick);
 
+
+/** Show favorite stories on click on "favorites" */
+
+function navFavoritesClick(evt) {
+  console.debug("navFavoritesClick", evt);
+  hidePageComponents();
+  putFavoritesListOnPage();
+}
+
+$body.on("click", "#nav-favorites", navFavoritesClick);
 
 /** Show login/signup on click on "login" */
 
