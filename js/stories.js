@@ -1,25 +1,3 @@
-/*
-  To continue with the favorite btn/trash btn:
-  you can start with the icons themselves
-    - put the icons where you genereate each story
-      - add conditions to show or hide the buttons when user is logged in (the case of star button)
-      and aslo if the user is the author (the case of the trash buttton)
-
-  after the icons are done, add the eventlisteners for the buttons onclick event
-  and work on the event handlers for the star button and the trash button
-    - the update of the story information (from the localstorage)
-    - the update of the story information (with request to the API)
-    - the update of the user interface
-
-  config git username and email locally
-  git config --global user.name <username>
-  git config --global user.email <email>
-*/
-
-
-
-
-
 "use strict";
 
 // This is the global list of the stories, an instance of StoryList
