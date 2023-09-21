@@ -180,4 +180,4 @@ async function toggleStoryFavorite(evt) {
   }
 }
 
-$allStoriesList.on("click", ".star", toggleStoryFavorite);
+$storiesLists.on("click", ".star", toggleStoryFavorite);

@@ -14,7 +14,7 @@ function navAllStories(evt) {
 
 $body.on("click", "#nav-all", navAllStories);
 
-$navMyStories.on("click", navMyStoriesClick);
+
 
 function navMyStoriesClick(evt) {
   console.debug("navMyStoriesClick", evt);
@@ -22,6 +22,8 @@ function navMyStoriesClick(evt) {
   putUserStoriesOnPage();
   $myStoriesList.show();
 }
+
+$navMyStories.on("click", navMyStoriesClick);
 
 /** Show story submit form on clicking story "submit" */
 

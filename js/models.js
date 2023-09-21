@@ -88,6 +88,7 @@ class StoryList {
    * Returns the new Story instance
    */
 
+
   async addStory(user, { title, author, url }) {
     const token = user.loginToken;
     const response = await axios({
